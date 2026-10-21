@@ -1,0 +1,31 @@
+name: Sync checklist library
+
+on:
+  schedule:
+    - cron: "43 6 3 * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download the published assets
+        run: |
+          curl -fsSL -o seo-checklist-library.pdf https://www.clienvora.com/downloads/seo-checklist-library.pdf
+          curl -fsSL -o seo-checklist-library.csv https://www.clienvora.com/downloads/seo-checklist-library.csv
+          curl -fsSL -o seo-checklist-library.xlsx https://www.clienvora.com/downloads/seo-checklist-library.xlsx
+          curl -fsSL -o checklist-catalogue.json https://www.clienvora.com/downloads/checklist-catalogue.json
+      - name: Commit only when the data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No change, skipping commit."
+          else
+            git commit -m "chore: sync checklist library from clienvora.com"
+            git push
+          fi

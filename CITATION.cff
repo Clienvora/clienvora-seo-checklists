@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: Clienvora SEO Checklist Library
+message: If you use this dataset, please cite it as below.
+type: dataset
+authors:
+  - name: Amir Ali
+    website: https://www.clienvora.com
+repository-code: "https://github.com/Clienvora/clienvora-seo-checklists"
+url: https://www.clienvora.com/checklists/
+abstract: >-
+  The complete free SEO checklist library from clienvora.com as open data.
+  1,637 checks across 101 checklists and 4 disciplines,
+  released as a printable PDF, a Google Sheets compatible spreadsheet, a CSV, and a
+  JSON catalogue. Every check names the tool that finds the problem and the way to
+  confirm the fix landed.
+keywords:
+  - seo
+  - checklist
+  - technical seo
+  - on-page seo
+  - off-page seo
+  - local seo
+  - open data
+license: CC-BY-4.0
+version: 2026-10-21
+date-released: "2026-10-21"

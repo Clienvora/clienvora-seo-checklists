@@ -1,0 +1,953 @@
+{
+ "updated": "2026-10-21",
+ "totalChecklists": 101,
+ "totalChecks": 1637,
+ "disciplines": 4,
+ "categories": [
+  {
+   "slug": "technical-seo",
+   "label": "Technical SEO",
+   "blurb": "Infrastructure: crawlability, indexation, speed, schema, redirects, security, and AI search visibility.",
+   "items": [
+    {
+     "slug": "ai-search-geo",
+     "url": "/checklists/technical-seo/ai-search-geo/",
+     "title": "AI Search Optimization Checklist 2026 | GEO and LLM Optimization",
+     "h1": "AI Search Optimization Checklist",
+     "description": "Complete AI search optimization checklist for ChatGPT, Perplexity, and Google AI Overviews. 12 checks covering AI crawler access, semantic HTML, llms.txt, entity optimization, and GEO performance.",
+     "checks": 19,
+     "icon": "icon-ai"
+    },
+    {
+     "slug": "indexing-canonicalization",
+     "url": "/checklists/technical-seo/indexing-canonicalization/",
+     "title": "Canonicalization and Indexing SEO Checklist 2026 | Canonical Tag Guide",
+     "h1": "Indexing and Canonicalization Checklist",
+     "description": "Complete canonicalization and indexing SEO checklist. Canonical tag meaning, URL canonicalization, crawled currently not indexed fixes, and noindex nofollow.",
+     "checks": 16,
+     "icon": "icon-crawl"
+    },
+    {
+     "slug": "cdn-caching-hosting",
+     "url": "/checklists/technical-seo/cdn-caching-hosting/",
+     "title": "CDN Caching and Hosting SEO Checklist 2026 | What Is a CDN Cache",
+     "h1": "CDN, Caching, and Hosting Checklist",
+     "description": "Complete CDN caching and hosting SEO checklist. What is a CDN cache, cdn vs cache, TTFB, cache-control headers, browser caching, and CDN cache hit rates.",
+     "checks": 15,
+     "icon": "icon-speed"
+    },
+    {
+     "slug": "crawl-budget-log-analysis",
+     "url": "/checklists/technical-seo/crawl-budget-log-analysis/",
+     "title": "Crawl Budget and Log Analysis SEO Checklist 2026 | What Is Crawl Budget",
+     "h1": "Crawl Budget and Log Analysis Checklist",
+     "description": "Complete crawl budget SEO checklist. What is crawl budget, crawl budget optimization, server log file analysis, and Googlebot crawl stats.",
+     "checks": 15,
+     "icon": "icon-crawl"
+    },
+    {
+     "slug": "crawlability",
+     "url": "/checklists/technical-seo/crawlability/",
+     "title": "Crawlability and Indexing Checklist 2026 | Technical SEO Guide",
+     "h1": "Crawlability and Indexing Checklist",
+     "description": "Complete guide to crawlability and indexing SEO. Fix robots.txt, XML sitemaps, redirect chains, broken links, crawl budget, IndexNow, and orphan pages with code examples.",
+     "checks": 20,
+     "icon": "icon-crawl"
+    },
+    {
+     "slug": "eeat-entities",
+     "url": "/checklists/technical-seo/eeat-entities/",
+     "title": "E-E-A-T and Entity SEO Checklist 2026 | Google Knowledge Graph Guide",
+     "h1": "E-E-A-T and Entity Checklist",
+     "description": "Complete E-E-A-T checklist for Google. Build author entities, Person and Organization schema with sameAs, and trust signals that survive core updates.",
+     "checks": 15,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "ecommerce-faceted-nav",
+     "url": "/checklists/technical-seo/ecommerce-faceted-nav/",
+     "title": "Ecommerce Faceted Navigation SEO Checklist 2026 | Faceted Search Guide",
+     "h1": "Ecommerce Faceted Navigation Checklist",
+     "description": "Complete ecommerce SEO checklist for faceted search and filtering. Fix filter index bloat, crawl budget waste, and duplicate product URLs.",
+     "checks": 15,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "core-web-vitals",
+     "url": "/checklists/technical-seo/core-web-vitals/",
+     "title": "Google Core Web Vitals Checklist 2026 | LCP INP CLS SEO Optimization Guide",
+     "h1": "Google Core Web Vitals and Performance Checklist",
+     "description": "Complete guide to Core Web Vitals SEO covering LCP, INP, CLS optimization. FID replaced by INP in March 2024. Fix site speed, caching, images, CDN, TTFB, and read the latest core web vitals news with code examples.",
+     "checks": 12,
+     "icon": "icon-speed"
+    },
+    {
+     "slug": "redirects-status-codes",
+     "url": "/checklists/technical-seo/redirects-status-codes/",
+     "title": "HTTP Redirect Codes and Status Codes Checklist 2026 | 301 vs 302 Guide",
+     "h1": "HTTP Redirect Codes and Status Codes Checklist",
+     "description": "Complete redirect codes and HTTP status codes checklist. 301 vs 302, redirect chains, soft 404s, 410 gone, 5xx errors. Free checklist with code examples.",
+     "checks": 14,
+     "icon": "icon-crawl"
+    },
+    {
+     "slug": "image-seo",
+     "url": "/checklists/technical-seo/image-seo/",
+     "title": "Image Technical SEO Checklist 2026 | WebP, Lazy Loading, Sitemaps",
+     "h1": "Image Technical SEO Checklist",
+     "description": "Technical image delivery checklist. Covers WebP and AVIF conversion, compression, responsive srcset, lazy loading, CDNs, and image sitemaps for Google Images.",
+     "checks": 15,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "international-seo",
+     "url": "/checklists/technical-seo/international-seo/",
+     "title": "International SEO Checklist 2026 | Hreflang and Global SEO Strategy",
+     "h1": "International SEO and Hreflang Checklist",
+     "description": "Complete international SEO strategy and hreflang checklist. Fix hreflang tags, x-default, ccTLD vs subdirectory vs subdomain, and multilingual SEO.",
+     "checks": 14,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "javascript-rendering",
+     "url": "/checklists/technical-seo/javascript-rendering/",
+     "title": "JavaScript SEO Checklist 2026 | Rendering, CSR vs SSR, and Best Practices",
+     "h1": "JavaScript SEO and Rendering Checklist",
+     "description": "Complete JavaScript SEO checklist. How Google renders JavaScript, CSR vs SSR vs SSG, dynamic rendering, two-wave indexing, and next js SEO best practices.",
+     "checks": 14,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "mobile-ux",
+     "url": "/checklists/technical-seo/mobile-ux/",
+     "title": "Mobile SEO Checklist 2026 | Mobile-First Indexing and UX Guide",
+     "h1": "Mobile SEO Checklist",
+     "description": "Complete mobile SEO checklist with 12 checks. Mobile-first indexing, responsive design, Core Web Vitals, touch targets, viewport, and interstitials. Free checklist with code examples.",
+     "checks": 12,
+     "icon": "icon-mobile"
+    },
+    {
+     "slug": "schema-markup",
+     "url": "/checklists/technical-seo/schema-markup/",
+     "title": "Schema Markup Implementation Checklist 2026 | JSON-LD and Validation",
+     "h1": "Schema Markup Implementation Checklist",
+     "description": "Technical schema implementation checklist. Covers JSON-LD placement, nesting, syntax errors, Rich Results testing, deprecation checks, and deployment validation.",
+     "checks": 15,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "security",
+     "url": "/checklists/technical-seo/security/",
+     "title": "Security and HTTPS Checklist 2026 | DNS-over-HTTPS and SEO Security Headers Guide",
+     "h1": "Security and HTTPS Checklist",
+     "description": "Technical SEO security checklist covering SSL certificates, mixed content, HSTS, CSP, DNS-over-HTTPS, security headers audit, and AI crawler security considerations with code examples.",
+     "checks": 13,
+     "icon": "icon-security"
+    },
+    {
+     "slug": "site-migrations",
+     "url": "/checklists/technical-seo/site-migrations/",
+     "title": "SEO Migration Checklist 2026 | Site Migration SEO Guide",
+     "h1": "SEO Migration Checklist",
+     "description": "Site migration SEO plan in 15 steps: the golden 301 map, staging lockdown, launch-day checks, and what recovery actually costs you.",
+     "checks": 15,
+     "icon": "icon-migrate"
+    },
+    {
+     "slug": "audit-checklist",
+     "url": "/checklists/technical-seo/audit-checklist/",
+     "title": "SEO Technical Audit Checklist 2026 | 20+ Checks by Frequency",
+     "h1": "SEO Technical Audit Checklist",
+     "description": "Complete SEO technical audit checklist organized by frequency. Weekly, monthly, quarterly, and annual checks with tools, prioritization framework, and code examples. Free audit template.",
+     "checks": 20,
+     "icon": "icon-audit"
+    },
+    {
+     "slug": "tools-comparison",
+     "url": "/checklists/technical-seo/tools-comparison/",
+     "title": "SEO Tools Comparison 2026 | Technical SEO Audit Tool Comparison",
+     "h1": "SEO Tools Comparison",
+     "description": "Compare the best SEO tools for technical audits. Google Search Console vs Screaming Frog vs Semrush vs Ahrefs vs Sitebulb. Find the right technical SEO audit tool for every task and budget. Technical audit tool comparison for 2026.",
+     "checks": 0,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "site-architecture",
+     "url": "/checklists/technical-seo/site-architecture/",
+     "title": "Site Architecture Checklist 2026 | URL Structure Internal Linking Guide",
+     "h1": "Site Architecture SEO Guide",
+     "description": "Technical SEO site architecture guide. URL structure, breadcrumbs, internal linking, navigation, silo structure, topic clusters, and orphan page fixes with code examples.",
+     "checks": 12,
+     "icon": "icon-arch"
+    },
+    {
+     "slug": "on-page-technical",
+     "url": "/checklists/technical-seo/on-page-technical/",
+     "title": "Technical On-Page SEO Checklist 2026 | Title Tags and Meta Description Guide",
+     "h1": "On-Page Technical SEO Checklist",
+     "description": "Complete technical on-page SEO checklist. On page vs technical SEO explained, title tags, meta descriptions, H1 headings, and keyword cannibalization.",
+     "checks": 15,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "for-beginners",
+     "url": "/checklists/technical-seo/for-beginners/",
+     "title": "Technical SEO for Non-Technical Marketers | Beginner-Friendly Guide",
+     "h1": "Technical SEO Checklist for Non-Technical Marketers",
+     "description": "Technical SEO checklist for non-developers. What you can fix without touching code, when to call a developer, free tools that do the work, and how to talk to developers.",
+     "checks": 10,
+     "icon": "icon-beginner"
+    },
+    {
+     "slug": "accessibility-a11y",
+     "url": "/checklists/technical-seo/accessibility-a11y/",
+     "title": "WCAG 2.2 Accessibility Checklist 2026 | Contrast, ARIA, Keyboard",
+     "h1": "WCAG 2.2 Accessibility Checklist",
+     "description": "WCAG 2.2 AA implementation checklist. Covers color contrast ratios, ARIA roles, keyboard navigation, focus states, and semantic HTML for compliance and SEO.",
+     "checks": 15,
+     "icon": "icon-a11y"
+    }
+   ],
+   "count": 22,
+   "checks": 311
+  },
+  {
+   "slug": "on-page-seo",
+   "label": "On-Page SEO",
+   "blurb": "The page itself: title tags, meta descriptions, headings, content quality, keywords, internal links, and structured data.",
+   "items": [
+    {
+     "slug": "accessibility",
+     "url": "/checklists/on-page-seo/accessibility/",
+     "title": "Accessibility for SEO Checklist 2026 | Headings, Alt Text, Links",
+     "h1": "Accessibility for SEO Checklist",
+     "description": "On-page accessibility checklist for SEO. Covers heading order, descriptive link text, alt text, and readable content structure that helps crawlers and users alike.",
+     "checks": 16,
+     "icon": "icon-a11y"
+    },
+    {
+     "slug": "content-optimization",
+     "url": "/checklists/on-page-seo/content-optimization/",
+     "title": "Content Optimization Checklist 2026 | On-Page SEO Guide",
+     "h1": "Content Optimization Checklist",
+     "description": "Complete content optimization checklist for SEO. Covers content briefs, search intent, entity coverage, readability, content gap analysis, and freshness. 18 checks with code examples and tools.",
+     "checks": 18,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "content-quality",
+     "url": "/checklists/on-page-seo/content-quality/",
+     "title": "Content Quality & E-E-A-T Checklist 2026 | On-Page SEO Guide",
+     "h1": "Content Quality & E-E-A-T Checklist",
+     "description": "Complete guide to content quality and E-E-A-T for SEO. Covers expertise, experience, authoritativeness, trustworthiness, original research, and content governance. 20 checks with code examples.",
+     "checks": 6,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "conversion-elements",
+     "url": "/checklists/on-page-seo/conversion-elements/",
+     "title": "Conversion Elements Checklist 2026 | On-Page SEO Guide",
+     "h1": "Conversion Elements & CTAs Checklist",
+     "description": "Complete guide to conversion elements for SEO. Covers CTA optimization, lead magnets, trust signals, form design, and landing page conversion. 16 checks with examples.",
+     "checks": 16,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "ecom-on-page",
+     "url": "/checklists/on-page-seo/ecom-on-page/",
+     "title": "Ecommerce On-Page SEO Checklist 2026 | On-Page SEO Guide",
+     "h1": "Ecommerce On-Page SEO Checklist",
+     "description": "Complete guide to ecommerce on-page SEO. Covers product page optimization, category pages, faceted navigation, internal search, and product schema. 20 checks with examples.",
+     "checks": 20,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "ecom-product-schema",
+     "url": "/checklists/on-page-seo/ecom-product-schema/",
+     "title": "Ecommerce Product Schema Checklist 2026 | On-Page SEO Guide",
+     "h1": "Ecommerce Product Schema Checklist",
+     "description": "Complete guide to ecommerce product schema markup. Covers Product, Offer, AggregateRating, Review, and BreadcrumbList schema for online stores. 18 checks with code examples.",
+     "checks": 18,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "entity-types-markup",
+     "url": "/checklists/on-page-seo/entity-types-markup/",
+     "title": "Entity Types & Schema Markup Checklist 2026 | On-Page SEO Guide",
+     "h1": "Entity Types & Schema Markup Checklist",
+     "description": "Complete guide to entity types and schema markup for SEO. Covers Person, Organization, Product, Service, Place, Event, CreativeWork schema with examples. 22 checks with code examples.",
+     "checks": 22,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "head-elements",
+     "url": "/checklists/on-page-seo/head-elements/",
+     "title": "Head Elements & Meta Tags Checklist 2026 | On-Page SEO Guide",
+     "h1": "Head Elements & Meta Tags Checklist",
+     "description": "Complete guide to head elements and meta tags for SEO. Covers title tags, meta descriptions, Open Graph, Twitter Cards, hreflang, and HTTP headers. 20 checks with code examples.",
+     "checks": 20,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "headings-structure",
+     "url": "/checklists/on-page-seo/headings-structure/",
+     "title": "Heading Structure & Hierarchy Checklist 2026 | On-Page SEO Guide",
+     "h1": "Heading Structure & Hierarchy Checklist",
+     "description": "Complete guide to heading structure and hierarchy for SEO. Covers H1-H6 usage, question headings, topic headings, and content outline best practices. 14 checks with code examples.",
+     "checks": 14,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "html-document-structure",
+     "url": "/checklists/on-page-seo/html-document-structure/",
+     "title": "HTML Document Structure Checklist 2026 | On-Page SEO Guide",
+     "h1": "HTML Document Structure Checklist",
+     "description": "Complete guide to semantic HTML structure for SEO. Covers HTML5 elements, document hierarchy, accessibility semantics, and structural best practices. 16 checks with code examples.",
+     "checks": 16,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "image-seo",
+     "url": "/checklists/on-page-seo/image-seo/",
+     "title": "Image Content SEO Checklist 2026 | Alt Text, Captions, Placement",
+     "h1": "Image Content SEO Checklist",
+     "description": "On-page image content checklist. Covers alt text quality, file names, captions, surrounding context, and image placement for search and accessibility. 18 checks with examples.",
+     "checks": 18,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "information-architecture",
+     "url": "/checklists/on-page-seo/information-architecture/",
+     "title": "Information Architecture Checklist 2026 | On-Page SEO Guide",
+     "h1": "Information Architecture Checklist",
+     "description": "Complete guide to information architecture for SEO. Covers site structure, URL hierarchy, navigation design, breadcrumbs, and topic cluster organization. 16 checks with code examples.",
+     "checks": 16,
+     "icon": "icon-arch"
+    },
+    {
+     "slug": "internal-linking",
+     "url": "/checklists/on-page-seo/internal-linking/",
+     "title": "Internal Linking Strategy Checklist 2026 | On-Page SEO Guide",
+     "h1": "Internal Linking Strategy Checklist",
+     "description": "Complete guide to internal linking strategy for SEO. Covers anchor text optimization, topic clusters, hub pages, link equity distribution, and orphan page prevention. 18 checks with code examples.",
+     "checks": 18,
+     "icon": "icon-arch"
+    },
+    {
+     "slug": "keyword-system",
+     "url": "/checklists/on-page-seo/keyword-system/",
+     "title": "Keyword Research & Targeting Checklist 2026 | On-Page SEO Guide",
+     "h1": "Keyword Research & Targeting Checklist",
+     "description": "Complete guide to keyword research and targeting for SEO. Covers primary and secondary keywords, long-tail variations, search intent matching, and keyword variants. 18 checks with code examples.",
+     "checks": 18,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "measurement",
+     "url": "/checklists/on-page-seo/measurement/",
+     "title": "Measurement & Analytics Checklist 2026 | On-Page SEO Guide",
+     "h1": "Measurement & Analytics Checklist",
+     "description": "Complete guide to SEO measurement and analytics. Covers GA4 setup, Search Console, conversion tracking, content performance metrics, and SEO reporting. 14 checks with examples.",
+     "checks": 14,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "meta-description",
+     "url": "/checklists/on-page-seo/meta-description/",
+     "title": "Meta Description Optimization Checklist 2026 | On-Page SEO Guide",
+     "h1": "Meta Description Optimization Checklist",
+     "description": "Complete guide to meta description optimization for SEO. Covers SERP snippet optimization, CTA inclusion, keyword relevance, and click-through rate improvement. 12 checks with code examples.",
+     "checks": 12,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "on-page-audit",
+     "url": "/checklists/on-page-seo/on-page-audit/",
+     "title": "On-Page SEO Audit Checklist 2026 | On-Page SEO Guide",
+     "h1": "On-Page SEO Audit Checklist",
+     "description": "Complete on-page SEO audit checklist with 20 checks, code examples, tools, and a prioritization framework. Step-by-step workflow for title tags, meta descriptions, E-E-A-T, schema, Core Web Vitals, and more.",
+     "checks": 20,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "page-identity-urls",
+     "url": "/checklists/on-page-seo/page-identity-urls/",
+     "title": "Page Identity & URL Structure Checklist 2026 | On-Page SEO Guide",
+     "h1": "Page Identity & URL Structure Checklist",
+     "description": "Complete guide to URL structure and page identity for SEO. Covers canonical URLs, slug optimization, duplicate content prevention, and page type identification. 18 checks with code examples.",
+     "checks": 18,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "structured-data",
+     "url": "/checklists/on-page-seo/structured-data/",
+     "title": "Schema Types Checklist 2026 | Which Markup for Each Page",
+     "h1": "Schema Types Checklist",
+     "description": "Choose the right structured data for each page type. Maps Article, Product, FAQ, LocalBusiness, HowTo, and more to the pages where they earn rich results.",
+     "checks": 20,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "search-engine-understanding",
+     "url": "/checklists/on-page-seo/search-engine-understanding/",
+     "title": "Search Engine Understanding Checklist 2026 | On-Page SEO Guide",
+     "h1": "Search Engine Understanding Checklist",
+     "description": "Complete guide to how search engines understand your content. Covers query processing, search intent, semantic relevance, entity recognition, and AI search differences. 20 checks with code examples.",
+     "checks": 20,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "search-intent",
+     "url": "/checklists/on-page-seo/search-intent/",
+     "title": "Search Intent Alignment Checklist 2026 | On-Page SEO Guide",
+     "h1": "Search Intent Alignment Checklist",
+     "description": "Complete guide to search intent alignment for SEO. Covers the 4 intent types, SERP analysis workflow, content format matching, intent mismatch diagnosis, and SERP feature signals. 16 checks with code examples and tools.",
+     "checks": 16,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "semantics-entities",
+     "url": "/checklists/on-page-seo/semantics-entities/",
+     "title": "Semantic SEO & Entity Optimization Checklist 2026 | On-Page SEO Guide",
+     "h1": "Semantic SEO & Entity Optimization Checklist",
+     "description": "Complete guide to semantic SEO and entity optimization. Covers entity recognition, co-occurrence, entity salience, Knowledge Graph signals, and semantic coverage. 20 checks with code examples.",
+     "checks": 20,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "serp-appearance",
+     "url": "/checklists/on-page-seo/serp-appearance/",
+     "title": "SERP Appearance Checklist 2026 | On-Page SEO Guide",
+     "h1": "SERP Appearance & Rich Results Checklist",
+     "description": "Complete guide to SERP appearance optimization. Covers featured snippets, knowledge panels, rich results, People Also Ask, and SERP feature targeting. 16 checks with examples.",
+     "checks": 16,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "social-open-graph",
+     "url": "/checklists/on-page-seo/social-open-graph/",
+     "title": "Social & Open Graph Checklist 2026 | On-Page SEO Guide",
+     "h1": "Social & Open Graph Checklist",
+     "description": "Complete guide to social media and Open Graph for SEO. Covers Open Graph tags, Twitter Cards, social sharing optimization, and structured data for social. 14 checks with examples.",
+     "checks": 14,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "title-optimization",
+     "url": "/checklists/on-page-seo/title-optimization/",
+     "title": "Title Tag Optimization Checklist 2026 | On-Page SEO Guide",
+     "h1": "Title Tag Optimization Checklist",
+     "description": "Complete guide to title tag optimization for SEO. Covers primary keyword placement, brand inclusion, click appeal, and title rewriting prevention. 15 checks with code examples.",
+     "checks": 15,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "user-experience",
+     "url": "/checklists/on-page-seo/user-experience/",
+     "title": "User Experience Checklist 2026 | On-Page SEO Guide",
+     "h1": "User Experience & Page Experience Checklist",
+     "description": "Complete guide to user experience for SEO in 2026. Covers Core Web Vitals (LCP, INP, CLS), render-blocking resources, CSS containment, font loading, mobile UX, and responsive design. 18 checks with code examples and tools.",
+     "checks": 11,
+     "icon": "icon-mobile"
+    },
+    {
+     "slug": "video-seo",
+     "url": "/checklists/on-page-seo/video-seo/",
+     "title": "Video SEO Optimization Checklist 2026 | On-Page SEO Guide",
+     "h1": "Video SEO Optimization Checklist",
+     "description": "Complete guide to video SEO optimization. Covers VideoObject schema, transcripts, chapters, key moments, video sitemaps, and YouTube optimization. 15 checks with code examples.",
+     "checks": 15,
+     "icon": "icon-schema"
+    }
+   ],
+   "count": 27,
+   "checks": 447
+  },
+  {
+   "slug": "off-page-seo",
+   "label": "Off-Page SEO",
+   "blurb": "Authority and distribution: backlinks, brand mentions, digital PR, content promotion, social signals, and reputation.",
+   "items": [
+    {
+     "slug": "affiliate-referral",
+     "url": "/checklists/off-page-seo/affiliate-referral/",
+     "title": "Affiliate Marketing & Referral Program Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Affiliate Marketing & Referral Program Checklist",
+     "description": "Complete affiliate marketing guide covering program setup, affiliate recruitment, tracking software, commission structure, and fraud prevention. 12 checks with code examples.",
+     "checks": 12,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "backlink-analysis",
+     "url": "/checklists/off-page-seo/backlink-analysis/",
+     "title": "Backlink Analysis Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Backlink Analysis Checklist",
+     "description": "Complete backlink analysis guide covering link profile audit, domain authority, toxic link detection, anchor text distribution, and competitor backlink analysis. 22 checks with code examples.",
+     "checks": 22,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "brand-authority",
+     "url": "/checklists/off-page-seo/brand-authority/",
+     "title": "Brand Authority Building Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Brand Authority Building Checklist",
+     "description": "Complete brand authority guide covering brand mention monitoring, SERP appearance, knowledge panel, social media, NAP consistency, and brand protection. 14 checks with code examples.",
+     "checks": 14,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "brand-monitoring",
+     "url": "/checklists/off-page-seo/brand-monitoring/",
+     "title": "Brand Monitoring Checklist: Track Mentions & Protect Your Reputation",
+     "h1": "Brand Monitoring & Mentions Checklist",
+     "description": "Complete brand monitoring guide covering brand mention tracking, unlinked mention reclamation, citation consistency, sentiment analysis, and alert setup. 16 checks with code examples.",
+     "checks": 16,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "competitor-analysis",
+     "url": "/checklists/off-page-seo/competitor-analysis/",
+     "title": "Competitor Backlink Analysis Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Competitor Backlink Analysis Checklist",
+     "description": "Complete competitor analysis guide covering backlink profile comparison, content gap analysis, competitor content research, and referral tracking. 20 checks with code examples.",
+     "checks": 19,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "competitor-gap",
+     "url": "/checklists/off-page-seo/competitor-gap/",
+     "title": "Competitor Content Gap Checklist 2026 | Topics and Keywords",
+     "h1": "Competitor Content Gap Checklist",
+     "description": "Find the content and keyword gaps competitors leave open. Covers topic gap analysis, keyword overlap, opportunity scoring, and link prospect identification.",
+     "checks": 14,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "content-distribution",
+     "url": "/checklists/off-page-seo/content-distribution/",
+     "title": "Content Distribution & Syndication Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Content Distribution & Syndication Checklist",
+     "description": "Complete content distribution guide covering syndication networks, platform selection, distribution timing, repurposing strategy, and amplification metrics. 12 checks with code examples.",
+     "checks": 13,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "content-promotion",
+     "url": "/checklists/off-page-seo/content-promotion/",
+     "title": "Content Promotion & Amplification Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Content Promotion & Amplification Checklist",
+     "description": "Complete content promotion guide covering social sharing, email outreach, influencer amplification, syndication, community distribution, and paid promotion. 18 checks with code examples.",
+     "checks": 17,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "digital-pr",
+     "url": "/checklists/off-page-seo/digital-pr/",
+     "title": "Digital PR & Journalist Outreach Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Digital PR & Journalist Outreach Checklist",
+     "description": "Complete digital PR guide covering press release distribution, journalist relationship building, newsjacking, press coverage, media list creation, and expert commentary. 22 checks with code examples.",
+     "checks": 22,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "forum-community",
+     "url": "/checklists/off-page-seo/forum-community/",
+     "title": "Forum & Community Link Building Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Forum & Community Link Building Checklist",
+     "description": "Complete forum and community guide covering Reddit, Discord, niche communities, signature link building, and user-generated content for SEO. 12 checks with code examples.",
+     "checks": 12,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "guest-posting",
+     "url": "/checklists/off-page-seo/guest-posting/",
+     "title": "Guest Posting & Byline Links Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Guest Posting & Byline Links Checklist",
+     "description": "Complete guest posting guide covering publication research, pitch crafting, content writing, author byline optimization, and performance analysis. 14 checks with code examples.",
+     "checks": 14,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "influencer-outreach",
+     "url": "/checklists/off-page-seo/influencer-outreach/",
+     "title": "Influencer Outreach & Influencer Marketing Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Influencer Outreach & Influencer Marketing Checklist",
+     "description": "Complete influencer outreach guide covering influencer identification, outreach messaging, campaign management, and relationship building. 14 checks with code examples.",
+     "checks": 14,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "link-building-strategies",
+     "url": "/checklists/off-page-seo/link-building-strategies/",
+     "title": "Link Building Strategies Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Link Building Strategies Checklist",
+     "description": "Complete link building guide covering guest posting, broken link building, skyscraper technique, resource page links, niche edits, and link reclamation. 20 checks with code examples.",
+     "checks": 20,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "link-risk-audit",
+     "url": "/checklists/off-page-seo/link-risk-audit/",
+     "title": "Link Risk Audit Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Link Risk Audit Checklist",
+     "description": "Complete link risk audit guide covering toxic link identification, Penguin risk assessment, disavow file creation, link detoxification, and recovery strategies. 16 checks with code examples.",
+     "checks": 16,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "off-page-audit",
+     "url": "/checklists/off-page-seo/off-page-audit/",
+     "title": "Off-Page SEO Audit Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Off-Page SEO Audit Checklist",
+     "description": "Complete off-page SEO audit guide covering backlink profile audit, brand audit, mention audit, review audit, citation audit, and social signal audit. 18 checks with code examples.",
+     "checks": 18,
+     "icon": "icon-audit"
+    },
+    {
+     "slug": "reputation-management",
+     "url": "/checklists/off-page-seo/reputation-management/",
+     "title": "Reputation Management & Online Reviews Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Reputation Management & Online Reviews Checklist",
+     "description": "Complete reputation management guide covering review monitoring, review generation, negative review response, brand monitoring, crisis communication, and advocacy building. 18 checks with code examples.",
+     "checks": 18,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "review-acquisition",
+     "url": "/checklists/off-page-seo/review-acquisition/",
+     "title": "Review Acquisition & Online Reputation Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Review Acquisition & Online Reputation Checklist",
+     "description": "Complete review acquisition guide covering review generation, review request campaigns, platform selection, negative review management, and positive review amplification. 16 checks with code examples.",
+     "checks": 16,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "social-authority",
+     "url": "/checklists/off-page-seo/social-authority/",
+     "title": "Social Media Authority Checklist 2026 | Profiles, Trust, Presence",
+     "h1": "Social Media Authority Checklist: Profiles and Trust",
+     "description": "Build social media authority that supports SEO. Covers profile completeness, follower quality, engagement rate, branded hashtags, and platform trust signals.",
+     "checks": 14,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "social-signals",
+     "url": "/checklists/off-page-seo/social-signals/",
+     "title": "Social Signals Checklist 2026 | Shares, Mentions, Amplification",
+     "h1": "Social Signals Checklist: Shares and Mentions",
+     "description": "Off-page social signals checklist. Covers share tracking, brand mentions, engagement metrics, social listening, and turning social activity into authority.",
+     "checks": 16,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "testimonials-case-studies",
+     "url": "/checklists/off-page-seo/testimonials-case-studies/",
+     "title": "Testimonials & Case Studies Checklist 2026 | Off-Page SEO Guide",
+     "h1": "Testimonials & Case Studies Checklist",
+     "description": "Complete testimonials guide covering customer testimonial collection, case study development, third-party validation, portfolio showcasing, and social proof optimization. 12 checks with code examples.",
+     "checks": 12,
+     "icon": "icon-entity"
+    }
+   ],
+   "count": 20,
+   "checks": 319
+  },
+  {
+   "slug": "local-seo",
+   "label": "Local SEO",
+   "blurb": "Local visibility: Google Business Profile, citations, reviews, local schema, service areas, maps, and local content.",
+   "items": [
+    {
+     "slug": "business-identity",
+     "url": "/checklists/local-seo/business-identity/",
+     "title": "Business Identity & NAP Checklist 2026 | Local SEO Guide",
+     "h1": "Business Identity & NAP Checklist",
+     "description": "Complete guide to business identity and NAP consistency for local SEO. Covers business name, address, phone, hours, descriptions, and attributes. 20 checks with code examples.",
+     "checks": 20,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "directory-entities",
+     "url": "/checklists/local-seo/directory-entities/",
+     "title": "Directory and Platform Entities Checklist 2026 | Local SEO Guide",
+     "h1": "Directory and Platform Entities Checklist",
+     "description": "Complete directory and platform entities checklist. Covers Yelp, Bing Places, Apple Business Connect, Facebook, TripAdvisor, industry directories, and Chamber listings. 18 detailed checks with examples.",
+     "checks": 18,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "local-ai-geo",
+     "url": "/checklists/local-seo/local-ai-geo/",
+     "title": "Generative Search Optimization Checklist: 17 Local Checks",
+     "h1": "Local AI & Generative Search Checklist",
+     "description": "17 checks to get your local business named in AI answers: entity signals, AI Overviews, ChatGPT and Perplexity citations, review flow, and brand mentions.",
+     "checks": 17,
+     "icon": "icon-ai"
+    },
+    {
+     "slug": "geographic-entities",
+     "url": "/checklists/local-seo/geographic-entities/",
+     "title": "Geographic Entity Optimization Checklist 2026 | Local SEO Guide",
+     "h1": "Geographic Entity Optimization Checklist",
+     "description": "Complete geographic entity optimization checklist. Covers city targeting, neighborhood pages, geographic schema, landmarks, and multi geography strategy. 17 detailed checks with examples.",
+     "checks": 17,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "google-business-profile",
+     "url": "/checklists/local-seo/google-business-profile/",
+     "title": "Google Business Profile Optimization Checklist 2026 | Local SEO Guide",
+     "h1": "Google Business Profile Optimization Checklist",
+     "description": "Complete guide to Google Business Profile optimization. Covers categories, description, services, products, photos, posts, Q&A, reviews, and attributes. 22 checks with code examples.",
+     "checks": 22,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "local-business-entity",
+     "url": "/checklists/local-seo/local-business-entity/",
+     "title": "Local Business Entity Checklist 2026 | NAP, Identity, Knowledge Panel",
+     "h1": "Local Business Entity Checklist: NAP and Identity",
+     "description": "Define and strengthen your local business entity. Covers NAP consistency, business categories, Knowledge Panel basics, service area vs storefront, and identity signals.",
+     "checks": 17,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "local-business-relationships",
+     "url": "/checklists/local-seo/local-business-relationships/",
+     "title": "Local Business Relationships Checklist 2026 | Partnerships and Referrals",
+     "h1": "Local Business Relationships Checklist: Real-World Ties",
+     "description": "Build real-world local relationships that lift authority. Covers supplier partnerships, referral networks, strategic alliances, Chamber membership, and community ties.",
+     "checks": 16,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "local-citations",
+     "url": "/checklists/local-seo/local-citations/",
+     "title": "Local Citations & Directories 2026 | Local SEO Guide",
+     "h1": "Local Citations & Directories Checklist",
+     "description": "Complete guide to local citations and directory building. Covers structured vs unstructured citations, directory selection, consistency audit, and duplicate cleanup. 20 checks.",
+     "checks": 20,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "local-community",
+     "url": "/checklists/local-seo/local-community/",
+     "title": "Local Community Engagement Checklist 2026 | Local SEO Guide",
+     "h1": "Local Community Engagement Checklist",
+     "description": "Complete local community engagement checklist for SEO. Covers nonprofit partnerships, Chamber of Commerce, school connections, civic organizations, and community content. 17 detailed checks with examples.",
+     "checks": 17,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "local-competitors",
+     "url": "/checklists/local-seo/local-competitors/",
+     "title": "Local Competitive Analysis Checklist 2026 | Local SEO Guide",
+     "h1": "Local Competitive Analysis Checklist",
+     "description": "Complete local competitive analysis checklist. Covers competitor GBP audits, review gaps, citation and backlink gaps, keyword gaps, and local market share. 17 detailed checks with examples.",
+     "checks": 17,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "local-content",
+     "url": "/checklists/local-seo/local-content/",
+     "title": "Local Content Strategy Checklist 2026 | Local SEO Guide",
+     "h1": "Local Content Strategy Checklist",
+     "description": "Complete guide to local content strategy. Covers location pages, city pages, service area content, local blog topics, and community content. 20 checks with examples.",
+     "checks": 20,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "local-conversions",
+     "url": "/checklists/local-seo/local-conversions/",
+     "title": "Local Conversion Optimization Checklist 2026 | Local SEO Guide",
+     "h1": "Local Conversion Optimization Checklist",
+     "description": "Complete local conversion optimization checklist. Covers call tracking, booking setup, GBP conversion metrics, store visits, and revenue attribution. 17 detailed checks with examples.",
+     "checks": 17,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "local-digital-pr",
+     "url": "/checklists/local-seo/local-digital-pr/",
+     "title": "Local Digital PR 2026 | Local SEO Guide",
+     "h1": "Local Digital PR Checklist",
+     "description": "Complete guide to local digital PR. Covers local journalist outreach, press releases, community stories, local data research, and expert commentary. 17 checks.",
+     "checks": 17,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "local-entity-relationships",
+     "url": "/checklists/local-seo/local-entity-relationships/",
+     "title": "Local Entity Relationships Checklist 2026 | Schema Entity Linking",
+     "h1": "Local Entity Relationships Checklist: Schema Linking",
+     "description": "Connect your local entity to related entities with schema. Covers locatedIn, areaServed, operatesIn, ownedBy, sameAs, and entity linking for local SEO.",
+     "checks": 16,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "local-events",
+     "url": "/checklists/local-seo/local-events/",
+     "title": "Local Events and Sponsorships Checklist 2026 | Local SEO Guide",
+     "h1": "Local Events & Sponsorships Checklist",
+     "description": "Complete local events and sponsorship checklist for SEO. Covers Event schema, event listing optimization, sponsorship backlinks, and event promotion. 17 detailed checks with examples.",
+     "checks": 17,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "local-keywords",
+     "url": "/checklists/local-seo/local-keywords/",
+     "title": "Local Keyword Research Checklist 2026 | Local SEO Guide",
+     "h1": "Local Keyword Research Checklist",
+     "description": "Complete guide to local keyword research. Covers geo-modifiers, city keywords, near-me optimization, service + location combos, and local long-tail strategy. 18 checks with code examples.",
+     "checks": 18,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "local-landing-pages",
+     "url": "/checklists/local-seo/local-landing-pages/",
+     "title": "Local Landing Page Optimization 2026 | Local SEO Guide",
+     "h1": "Local Landing Page Optimization Checklist",
+     "description": "Complete guide to local landing page optimization. Covers location page templates, store locator, multi-location pages, and avoiding thin doorway pages. 18 checks.",
+     "checks": 18,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "local-links",
+     "url": "/checklists/local-seo/local-links/",
+     "title": "Local Link Building 2026 | Local SEO Guide",
+     "h1": "Local Link Building Checklist",
+     "description": "Complete guide to local link building. Covers local news links, community organizations, chambers, universities, sponsorships, and local blog outreach. 18 checks.",
+     "checks": 18,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "local-ranking",
+     "url": "/checklists/local-seo/local-ranking/",
+     "title": "Local Ranking Factors Checklist 2026 | Local SEO Guide",
+     "h1": "Local Ranking Factors Checklist",
+     "description": "Complete guide to local ranking factors. Covers proximity, relevance, prominence, Local Pack, Three-Pack, Local Finder, and map ranking strategy. 18 checks with examples.",
+     "checks": 18,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "local-reputation",
+     "url": "/checklists/local-seo/local-reputation/",
+     "title": "Local Reputation Management Checklist 2026: 17 Checks, Tools",
+     "h1": "Local Reputation Management Checklist",
+     "description": "17 local reputation checks: monitor reviews, respond to negative reviews within 24 hours, track sentiment, and fix the ranking signals. Free, with tools.",
+     "checks": 17,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "local-schema",
+     "url": "/checklists/local-seo/local-schema/",
+     "title": "Local Schema & Structured Data 2026 | Local SEO Guide",
+     "h1": "Local Schema & Structured Data Checklist",
+     "description": "Complete guide to local schema markup. Covers LocalBusiness, PostalAddress, GeoCoordinates, OpeningHoursSpecification, areaServed, and hasMap. 20 checks.",
+     "checks": 20,
+     "icon": "icon-schema"
+    },
+    {
+     "slug": "local-search-intent",
+     "url": "/checklists/local-seo/local-search-intent/",
+     "title": "Local Search Intent Checklist 2026 | Local SEO Guide",
+     "h1": "Local Search Intent Checklist",
+     "description": "Complete guide to local search intent optimization. Covers near-me, emergency, service, appointment, review, and comparison intent. 16 checks with examples.",
+     "checks": 16,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "local-audit",
+     "url": "/checklists/local-seo/local-audit/",
+     "title": "Local SEO Audit Checklist 2026 | Local SEO Guide",
+     "h1": "Local SEO Audit Checklist",
+     "description": "Complete local SEO audit checklist. Covers Google Business Profile audit, NAP consistency, citation cleanup, review audit, schema checks, and competitor analysis. 18 detailed checks with examples.",
+     "checks": 18,
+     "icon": "icon-audit"
+    },
+    {
+     "slug": "local-measurement",
+     "url": "/checklists/local-seo/local-measurement/",
+     "title": "Local SEO Measurement and KPI Checklist 2026 | Local SEO Guide",
+     "h1": "Local SEO Measurement and KPI Checklist",
+     "description": "Complete local SEO measurement checklist. Covers rank tracking, Google Business Profile insights, call tracking, GA4 setup, review metrics, and local ROI reporting. 18 detailed checks with examples.",
+     "checks": 18,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "local-serp",
+     "url": "/checklists/local-seo/local-serp/",
+     "title": "Local SERP Features Checklist 2026 | Local SEO Guide",
+     "h1": "Local SERP Features Checklist",
+     "description": "Complete local SERP features checklist for SEO. Covers Local Pack, Local Finder, Knowledge Panel, Local Services Ads, AI Overview, and People Also Ask. 17 detailed checks with examples.",
+     "checks": 17,
+     "icon": "icon-tools"
+    },
+    {
+     "slug": "local-social-signals",
+     "url": "/checklists/local-seo/local-social-signals/",
+     "title": "Local Social Signals Checklist 2026 | Local Profiles and Engagement",
+     "h1": "Local Social Signals Checklist: Profiles and Engagement",
+     "description": "Local social checklist. Covers local profile optimization, geo-tagged content, local hashtags, community engagement, and how social signals feed local rankings.",
+     "checks": 16,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "maps-map-entities",
+     "url": "/checklists/local-seo/maps-map-entities/",
+     "title": "Maps & Map Entity Optimization Checklist 2026 | Local SEO Guide",
+     "h1": "Maps & Map Entity Optimization Checklist",
+     "description": "Complete guide to map platform optimization for local SEO. Covers Google Maps, Apple Maps, Bing Maps, Place ID, and proximity signals. 14 checks with code examples.",
+     "checks": 14,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "multi-location",
+     "url": "/checklists/local-seo/multi-location/",
+     "title": "Multi-Location and Franchise SEO Checklist 2026 | Local SEO Guide",
+     "h1": "Multi-Location & Franchise SEO Checklist",
+     "description": "Complete multi-location and franchise SEO checklist. Covers location pages, store locator, branch Google Business Profiles, location schema, and avoiding cannibalization. 18 detailed checks with examples.",
+     "checks": 18,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "physical-location",
+     "url": "/checklists/local-seo/physical-location/",
+     "title": "Physical Location & Address Checklist 2026 | Local SEO Guide",
+     "h1": "Physical Location & Address Checklist",
+     "description": "Complete guide to physical location optimization for local SEO. Covers location pages, address schema, GeoCoordinates, map embedding, and neighborhood targeting. 16 checks with code examples.",
+     "checks": 16,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "proximity-signals",
+     "url": "/checklists/local-seo/proximity-signals/",
+     "title": "Proximity and Distance Signals Checklist 2026 | Local SEO Guide",
+     "h1": "Proximity and Distance Signals Checklist",
+     "description": "Complete proximity signals checklist for local SEO. Covers near me optimization, service radius, distance based content, and multi location proximity strategy. 16 detailed checks with examples.",
+     "checks": 16,
+     "icon": "icon-cart"
+    },
+    {
+     "slug": "reviews-ratings",
+     "url": "/checklists/local-seo/reviews-ratings/",
+     "title": "Reviews & Ratings Management 2026 | Local SEO Guide",
+     "h1": "Reviews & Ratings Management Checklist",
+     "description": "Complete guide to reviews and ratings management. Covers review acquisition, response best practices, platform diversity, velocity management, and review schema. 20 checks.",
+     "checks": 20,
+     "icon": "icon-entity"
+    },
+    {
+     "slug": "service-area",
+     "url": "/checklists/local-seo/service-area/",
+     "title": "Service Area & Coverage Checklist 2026 | Local SEO Guide",
+     "h1": "Service Area & Coverage Checklist",
+     "description": "Complete guide to service area optimization for local SEO. Covers service area configuration, areaServed schema, radius vs specific areas, and service area content. 14 checks with code examples.",
+     "checks": 14,
+     "icon": "icon-cart"
+    }
+   ],
+   "count": 32,
+   "checks": 560
+  }
+ ]
+}
